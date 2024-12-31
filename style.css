@@ -1,9 +1,12 @@
 body{
     font-family: Arial,sans-serif;
+    background-image: url('programming-and-software-development-web-page-vector-30433911.jpg');
+    background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #bebeed;
+    background-color: #dc7521;
     color: #2e2929;
 }
 header{
@@ -36,8 +39,9 @@ main{
     padding: 20px;
     max-width: 800px;
     margin: auto;
-    background:white;
+    background:rgb(94, 208, 234);
     box-shadow: 0 4px 8px rgba(8, 8, 8, 0.1);
+    border-radius: 15px;
 }
 .main.body{
     text-align: justify;
