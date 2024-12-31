@@ -1,16 +1,90 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #bebeed;
+    color: #2e2929;
+}
 header{
-    background-color: #4CAF50;
+    background-color: #da7522;
     color: white;
     text-align: center;
     padding: 20px 0;
+    font-family: cursive;
 }
 header h1{ 
     margin: 0;
-    font-size: 25px;
+    font-size: 45px;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+header h3{
+    margin: 5px 0;
+    font-style: italic;
+}
+.about{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4caf4c;
+    margin-bottom: 10px;
     font-style: italic;
     text-decoration: underline;
 }
-header h3{
-    margin: 5px 522px;
+main{
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background:white;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.1);
+}
+.main.body{
+    text-align: justify;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    font-family: cursive;
+
+}
+.image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
+
+}
+.my.hobbies h3{
+    color: #4caf50;
+    font-size: 1.25em;
+    margin-top: 25px;
     font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+.my.hobbies ul{
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 0;
+    font-family: cursive;
+}
+.my.hobbies ul li{
+    margin: 5px 0;
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+footer .mail{
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer .mail:hover{
+    text-decoration: underline;
 }
